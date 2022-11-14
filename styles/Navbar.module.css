@@ -1,0 +1,35 @@
+.navcontainer{
+    background-color: rgb(28, 25, 25);
+    margin-bottom: 1rem;
+}
+.navul {
+    margin: 0;
+    padding: 0 5rem;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    justify-items: center;
+    align-content: center;
+    align-items: center;
+    text-align: center;
+   height: 2rem;
+  
+}
+
+.navlink {
+    flex: 1;
+    list-style-type: none;
+  
+
+}
+
+.navlink:hover{
+    flex: 1;
+    background-color: aqua;
+    color: black;
+    height: 2rem;
+    justify-content: center;
+    align-items: center;
+  
+}
+
