@@ -6,9 +6,9 @@ const Mid = ({style}) => {
     console.log(style.topnews)
     return (
         <div className={style.mid}>
-            <TopNews style={style}/>
-            <SpecialNews style={style}/>
-            <SpecialNews style={style}/>
+            <TopNews/>
+            <SpecialNews/>
+         
         </div>
     );
 }
