@@ -1,0 +1,44 @@
+.flexitem {
+margin-top: 2rem;
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+
+}
+
+.mostreadcontainer {
+    padding-top: 1rem;
+    position: relative;
+    height: 60vh;
+    width: 100%;
+    background-color: rgb(224, 221, 244);
+    display: grid;
+    grid-template-columns: repeat(5, 1fr);
+    row-gap: 0.4rem;
+    column-gap: 0.3rem;
+    justify-content: center;
+    justify-items: center;
+}
+
+
+
+.sidehead {
+    background-color: blueviolet;
+    margin: 0 0.5rem;
+    display: flex;
+    justify-content: center;
+    justify-items: center;
+}
+
+.headingtext {
+    text-align: center;
+    writing-mode: vertical-rl;
+}
+
+.mostread {
+    position: relative;
+    box-sizing: border-box;
+    width: 300px;
+    height: 230px;
+    background-color: black;
+}

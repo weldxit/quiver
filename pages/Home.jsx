@@ -10,6 +10,7 @@ import Left from '../components/Left'
 import Mid from '../components/Mid'
 import Sidebar from '../components/Sidebar'
 import Layout from '../components/Layout';
+import MostReadings from '../components/MostReadings';
 const Home = () => {
     return (
         <Layout>
@@ -28,6 +29,7 @@ const Home = () => {
      <Mid style={mid}/>
      <Sidebar style={side}/>
     </main>
+    <MostReadings/>
         </div>
         </Layout>
     );

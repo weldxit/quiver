@@ -1,64 +1,83 @@
-.topnews{
-   
+.topnews {
+    position: relative;
+    box-sizing: border-box;
+    padding: 0;
+    margin-top: 0;
     display: grid;
     grid-template-columns: 1fr 1fr;
-    column-gap: 0.5rem;
-        
-    }
-    
-    .topnewsleft{
-        padding: 0;
-        margin: 0;
-        display: grid;
-        grid-template-columns:1fr 1fr 1fr ;
-        grid-template-rows: 1fr 1fr 1fr;
-        column-gap: 0.6rem;
-        height: 57vh;
-        
-    }
-    
-    
-    .imagediv{
-        margin: 0;
-        display: inline-block;
-        position: relative;
-        background-color: aqua;
-        box-sizing: content-box;
-        height: 10rem;
-        width: 18rem;
-        
-    
-    }
-    
-    .imagedivmain{
-        margin: 0;
-        position: relative;
-        
-    
-    }
-    
-    .imagedivmain_heading{
-        margin: 0;
+    column-gap: 1rem;
+    height: 57vh;
+    width: auto;
+    border-bottom: 2px solid red;
+}
+.topnews :nth-of-type(1){
+    grid-column: 1/2;
+}
+.topnewsleft {
 
-        color: red;
-        box-sizing: content-box;
-    }
-    
-    .imagedivmain_para{
-       
-        overflow: hidden;
-        position: absolute;
-        background-color: rgba(0, 0, 0, 0.678);
-        color: aliceblue;
-        z-index: 10;
-        bottom: 0;
-        left: 0;
-        right: 0;
-        margin: 0;
-        height:auto;
-        font-size:1.5rem;
-        font-weight:bold;
-        
-        
-    }
-   
+    margin: 0;
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    grid-template-rows: 1fr 1fr;
+    column-gap: 0.6rem;
+
+
+}
+
+.imagediv {
+
+    display: grid;
+    position: relative;
+    background-color: aqua;
+    box-sizing: content-box;
+    height: 9rem;
+    width: 16rem;
+
+
+}
+
+.topnewsleft {
+    padding: 0;
+    margin: 0;
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr;
+    grid-template-rows: 1fr 1fr 1fr;
+    column-gap: 0.6rem;
+    height: 50vh;
+
+}
+
+
+
+
+.imagedivmain {
+    margin: 0;
+    position: relative;
+    height: 50vh;
+
+}
+
+.imagedivmain_heading {
+    margin: 0;
+    padding: 0;
+    color: red;
+    box-sizing: content-box;
+}
+
+.imagedivmain_para {
+
+    overflow: hidden;
+    position: absolute;
+    background-color: rgba(0, 0, 0, 0.678);
+    color: aliceblue;
+    z-index: 10;
+    bottom: 0;
+    left: 0;
+    right: 0;
+    margin: 0;
+    height: auto;
+    font-size: 1.5rem;
+    font-weight: bold;
+
+
+}

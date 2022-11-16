@@ -3,7 +3,8 @@
     background-color: rgb(255, 255, 255);
     border-top: 0.2ch solid gray;
     color: rgb(255, 128, 0);
-  
+    margin: 0;
+    padding: 0;
     position: relative;
 }
 
@@ -12,23 +13,32 @@
     font-weight: bold;
 }
 
-
+.spcontainer{
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-start;
+    justify-items: center;
+    height: 17rem;
+    width: 20rem;
+}
 
 .spimage{
     position: relative;
     display: inline-block;
     height: 12rem;
-    width: 22rem;
+    width: 20rem;
     margin: 0.1rem;
     padding: 0;
 }
 
 .sphead{
     color: rgba(0, 0, 0, 0.866);
-    font-weight: 900;
+    font-weight: 600;
     font-family:Verdana, Geneva, Tahoma, sans-serif;
     margin: 0.1rem;
     padding: 0;
+
+    width: 20rem;
 }
 
 .sppara{
@@ -37,24 +47,19 @@
     opacity: 0.8;
     margin: 0.1rem;
     padding: 0;
+   
+    width: 20rem;
 }
 
-.spcontainer{
-    display: flex;
-    flex-direction: column;
-    justify-content: flex-start;
-    justify-items: center;
-    height: 20rem;
-    width: 22rem;
-}
+
 
 .spgrid{
     display: grid;
     grid-template-columns: 1fr 1fr 1fr 1fr;
-    grid-template-rows: 1fr 1fr;
+    grid-template-rows: 1fr 1fr ;
+    align-items: stretch;
+    justify-content: center;
+    justify-items: center;
+    row-gap: 0.3rem;
 }
 
-.spgrid :nth-child(n){
-    margin: 0;
-    padding: 0.2rem;
-}

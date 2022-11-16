@@ -8,7 +8,7 @@ const Mid = ({style}) => {
         <div className={style.mid}>
             <TopNews/>
             <SpecialNews/>
-         
+                        
         </div>
     );
 }

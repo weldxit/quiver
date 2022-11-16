@@ -6,13 +6,10 @@ import style from '../styles/Topnews.module.css'
 const TopNews = () => {
   return (
     <div className={style.topnews}>
+
+
+
       {/* frontpage -> mid content -> right side div of mid */}
-
-
-
-
-
-
       <div className={style.imagedivmain}>
        
        <Link href={'/'}>
