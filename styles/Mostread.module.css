@@ -1,5 +1,15 @@
+.h1{
+    color: rgb(247, 247, 247);
+    position: absolute;
+    z-index: 10;
+    text-align: center;
+    background-color: rgba(0, 0, 0, 0.468);
+    
+}
+
 .flexitem {
-margin-top: 2rem;
+margin-top: 4rem;
+margin-bottom: 3rem;
     display: flex;
     flex-direction: row;
     justify-content: center;
@@ -8,6 +18,7 @@ margin-top: 2rem;
 
 .mostreadcontainer {
     padding-top: 1rem;
+
     position: relative;
     height: 60vh;
     width: 100%;
@@ -41,4 +52,5 @@ margin-top: 2rem;
     width: 300px;
     height: 230px;
     background-color: black;
+ 
 }

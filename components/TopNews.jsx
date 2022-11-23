@@ -21,6 +21,8 @@ const TopNews = () => {
           width={600}
           alt={"my image"}
           className={style.image}
+          placeholder='blur'
+          blurDataURL="base64"
           />
      
         

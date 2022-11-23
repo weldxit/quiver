@@ -1,6 +1,8 @@
 .footer{
-    margin-top: 2rem;
+    position: relative;
+ padding: 2rem;
     height:30ch;
     width: 100%;
     background-color: rgb(88, 65, 11);
+    
 }
