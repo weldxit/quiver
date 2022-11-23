@@ -71,6 +71,7 @@ const Politics = () => {
           <div className={style.right_trend}>
             <div className={style.latest}>
                 <h1 className={style.latest_heading}>Latest on Politics</h1>
+                
             </div>
 
             <div className={style.trending}>trend</div>
