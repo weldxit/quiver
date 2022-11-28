@@ -73,25 +73,9 @@ const TopNews = () => {
           <h2 className={style.imagedivmain_para}>Romania&apos;s Hiking spot getting crowded</h2>
           </Link>
         </div>
-        <div className={style.imagediv}>
-            <Link href={'/'}>
-          <Image src={"/images/hiking_romania.jpg"} fill={true} alt={"my image"} />
-          <h2 className={style.imagedivmain_para}>Romania&apos;s Hiking spot getting crowded</h2>
-          </Link>
+      
         </div>
-        <div className={style.imagediv}>
-            <Link href={'/'}>
-          <Image src={"/images/hiking_romania.jpg"} fill={true} alt={"my image"} />
-          <h2 className={style.imagedivmain_para}>Romania&apos;s Hiking spot getting crowded</h2>
-          </Link>
-        </div>
-        <div className={style.imagediv}>
-            <Link href={'/'}>
-          <Image src={"/images/hiking_romania.jpg"} fill={true} alt={"my image"} />
-          <h2 className={style.imagedivmain_para}>Romania&apos;s Hiking spot getting crowded</h2>
-          </Link>
-        </div>
-      </div>
+     
 
 
 

@@ -2,9 +2,13 @@
    
     display: grid;
     grid-template-rows: 1fr 2fr;
-    
+    width: 124vh;
+
+
     
 }
+
+
 
 /* top news section */
 

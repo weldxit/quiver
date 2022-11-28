@@ -175,3 +175,31 @@ width: 38vh;
     height: 10vh;
     overflow: hidden;
 }
+
+.related{
+    display: flex;
+    flex-direction: column;
+
+}
+
+.related_news{
+    width: 100%;
+    height: 15.8vh;
+    padding: 1rem;
+    display: flex;
+    flex-direction: row;
+    box-sizing: border-box;
+    overflow: hidden;
+}
+
+.related_news_texts{
+    padding-left: 1rem;
+    background-color: beige;
+    height: 15.8vh;
+}
+.related_news_heading{
+    margin: 0;
+    padding: 0;
+    top: 0;
+
+}
