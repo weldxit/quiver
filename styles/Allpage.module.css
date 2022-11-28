@@ -13,7 +13,7 @@ overflow:auto;
 
 
 .left_recent{
-visibility: hidden;
+
 position: static;
 display: flex;
 flex-direction: column;

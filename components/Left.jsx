@@ -4,14 +4,19 @@ import Image from "next/image";
 
 const Left = ({ style }) => {
   return (
-    <>
+    
+    <div className={style.container}>
       <div className={style.left}>
+        <h1 className={style.heading}>Till Yesterday</h1>
         <div className={style.imagediv}>
           <Link href={"/"}>
             <Image
               src={"/images/leftbar/modiji.jpg"}
-              fill={true}
+              height={170}
+              width={280}
+
               alt={"my image"}
+              className={style.image}
             />
             <h2 className={style.imagedivmain_para}>
              Modi Ji visiting odisha for the first time.
@@ -23,8 +28,11 @@ const Left = ({ style }) => {
           <Link href={"/"}>
             <Image
               src={"/images/leftbar/trump.webp"}
-              fill={true}
+              height={170}
+              width={280}
+
               alt={"my image"}
+              className={style.image}
             />
             <h2 className={style.imagedivmain_para}>
              Trump fires up on his wife
@@ -36,8 +44,11 @@ const Left = ({ style }) => {
           <Link href={"/"}>
             <Image
               src={"/images/leftbar/jack.jpg"}
-              fill={true}
+              height={170}
+              width={280}
+
               alt={"my image"}
+              className={style.image}
             />
             <h2 className={style.imagedivmain_para}>
              Jack sparrow lost Black Pearl
@@ -49,8 +60,11 @@ const Left = ({ style }) => {
           <Link href={"/"}>
             <Image
               src={"/images/leftbar/philosopher.webp"}
-              fill={true}
+              height={170}
+              width={280}
+
               alt={"my image"}
+              className={style.image}
             />
             <h2 className={style.imagedivmain_para}>
               A Geek philosopher
@@ -62,8 +76,11 @@ const Left = ({ style }) => {
           <Link href={"/"}>
             <Image
               src={"/images/leftbar/twilight.jpg"}
-              fill={true}
+              height={170}
+              width={280}
+
               alt={"my image"}
+              className={style.image}
             />
             <h2 className={style.imagedivmain_para}>
               Twilight Conflict | Bella Swan
@@ -74,8 +91,11 @@ const Left = ({ style }) => {
           <Link href={"/"}>
             <Image
               src={"/images/leftbar/rami.webp"}
-              fill={true}
+              height={170}
+              width={280}
+
               alt={"my image"}
+              className={style.image}
             />
             <h2 className={style.imagedivmain_para}>
              Rami got the Award
@@ -86,8 +106,11 @@ const Left = ({ style }) => {
           <Link href={"/"}>
             <Image
               src={"/images/leftbar/elon.jpg"}
-              fill={true}
+              height={170}
+              width={280}
+
               alt={"my image"}
+              className={style.image}
             />
             <h2 className={style.imagedivmain_para}>
            Elon takes marijuana on show
@@ -98,8 +121,11 @@ const Left = ({ style }) => {
           <Link href={"/"}>
             <Image
               src={"/images/leftbar/greece.jpg"}
-              fill={true}
+              height={170}
+              width={280}
+
               alt={"my image"}
+              className={style.image}
             />
             <h2 className={style.imagedivmain_para}>
               The clean Greece 
@@ -110,8 +136,11 @@ const Left = ({ style }) => {
           <Link href={"/"}>
             <Image
               src={"/images/leftbar/winter.jpg"}
-              fill={true}
+              height={170}
+              width={280}
+
               alt={"my image"}
+              className={style.image}
             />
             <h2 className={style.imagedivmain_para}>
              Winter has came, Warm up !
@@ -122,8 +151,11 @@ const Left = ({ style }) => {
           <Link href={"/"}>
             <Image
               src={"/images/leftbar/great_wall_of_china.jpg"}
-              fill={true}
+              height={170}
+              width={280}
+
               alt={"my image"}
+              className={style.image}
             />
             <h2 className={style.imagedivmain_para}>
              30 Km long Wall | Great Wall
@@ -131,7 +163,7 @@ const Left = ({ style }) => {
           </Link>
         </div>
       </div>
-    </>
+      </div>
   );
 };
 

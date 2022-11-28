@@ -6,7 +6,7 @@ import style from '../styles/Topnews.module.css'
 const TopNews = () => {
   return (
     <div className={style.topnews}>
-
+      <h1 className={style.heading}>Top News <span className={style.today}>Today</span></h1>
 
 
       {/* frontpage -> mid content -> right side div of mid */}
