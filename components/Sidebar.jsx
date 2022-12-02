@@ -13,7 +13,7 @@ const Sidebar = () => {
       <iframe src={`https://www.youtube.com/embed/${codeGenerate('https://www.youtube.com/watch?v=zGPC2D_K9DI')}`} frameborder="0"></iframe>
     </div>
     <div className={style.ytcontainer}>
-      <iframe src={`https://www.youtube.com/embed/${codeGenerate('https://www.youtube.com/watch?v=zGPC2D_K9DI')}`} frameborder="0"></iframe>
+      <iframe src={`https://www.youtube.com/embed/${codeGenerate('https://www.youtube.com/watch?v=l2Rpcmhzlms')}`} frameborder="0"></iframe>
     </div>
     <div className={style.ytcontainer}>
       <iframe src={`https://www.youtube.com/embed/${codeGenerate('https://www.youtube.com/watch?v=zGPC2D_K9DI')}`} frameborder="0"></iframe>

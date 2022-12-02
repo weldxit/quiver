@@ -37,11 +37,12 @@ const Education = () => {
 
           <div className={style.right_trend}>
             <div className={style.latest}>
-              <h1 className={style.latest_heading}>Latest on Politics</h1>
+              <h1 className={style.latest_heading}>Latest Educational</h1>
               <div className={style.first_politics}>
                 <div className={style.first_politics_image}>
                   <Image
-                    src={"/images/leftbar/elon.jpg"}
+                 
+                    src={"https://cdn.pixabay.com/photo/2015/07/28/22/05/child-865116_960_720.jpg"}
                     fill={true}
                     alt="elon must"
                   />
@@ -61,7 +62,7 @@ const Education = () => {
             </div>
 
             <div className={style.trending}>
-              <h1 className={style.latest_heading}>Trending Politics</h1>
+              <h1 className={style.latest_heading}>Trending On Education</h1>
               <div className={style.trending_grid}>
                 <div className={style.tgrid_item}>
                   <h1 className={style.trend_item_heading}>
@@ -70,7 +71,7 @@ const Education = () => {
 
                   <div className={style.trend_item_image}>
                     <Image
-                      src={"/images/dreamland.jpg"}
+                      src={"https://cdn.pixabay.com/photo/2016/11/14/03/16/book-1822474_960_720.jpg"}
                       fill={true}
                       alt="thumbnail"
                     />
@@ -90,7 +91,7 @@ const Education = () => {
                   </h1>
                   <div className={style.trend_item_image}>
                     <Image
-                      src={"/images/marshmello.jpg"}
+                      src={"https://cdn.pixabay.com/photo/2014/04/02/14/48/children-306607_960_720.jpg"}
                       fill={true}
                       alt="thumbnail"
                     />
@@ -110,7 +111,7 @@ const Education = () => {
                   </h1>
                   <div className={style.trend_item_image}>
                     <Image
-                      src={"/images/binary-world.jpg"}
+                      src={"https://cdn.pixabay.com/photo/2020/12/14/17/40/studying-5831644_960_720.jpg"}
                       fill={true}
                       alt="thumbnail"
                     />
@@ -130,7 +131,7 @@ const Education = () => {
                   </h1>
                   <div className={style.trend_item_image}>
                     <Image
-                      src={"/images/hiking_romania.jpg"}
+                      src={"https://cdn.pixabay.com/photo/2016/10/30/05/43/school-1782427_960_720.jpg"}
                       fill={true}
                       alt="thumbnail"
                     />
@@ -150,7 +151,7 @@ const Education = () => {
                   </h1>
                   <div className={style.trend_item_image}>
                     <Image
-                      src={"/images/northernlights.jpg"}
+                      src={"https://cdn.pixabay.com/photo/2015/12/19/20/32/paper-1100254_960_720.jpg"}
                       fill={true}
                       alt="thumbnail"
                     />
@@ -169,7 +170,7 @@ const Education = () => {
                     This is Heading Line some hot news
                   </h1>
                   <div className={style.trend_item_image}>
-                    <Image src={"/images/aw.jpg"} fill={true} alt="thumbnail" />
+                    <Image src={"https://cdn.pixabay.com/photo/2014/09/16/01/19/girl-447701__180.jpg"} fill={true} alt="thumbnail" />
                   </div>
                   <p className={style.trend_item_desc}>
                     {" "}
@@ -185,7 +186,7 @@ const Education = () => {
             <div className={style.related}>
             <h1 className={style.latest_heading}>Related News</h1>
               <div className={style.related_news}>
-                <Image src={"/images/aw.jpg"} width={200} height={150} alt="image" />
+                <Image src={"https://cdn.pixabay.com/photo/2016/11/29/13/51/alone-1869997_960_720.jpg"} width={200} height={150} alt="image" />
                 <div className={style.related_news_texts}>
                   <h1 className={style.related_news_heading}>Heading goes through this</h1>
                   <span className={style.related_news_time}>2 min ago</span>
@@ -200,7 +201,7 @@ const Education = () => {
                 </div>
               </div>
               <div className={style.related_news}>
-                <Image src={"/images/aw.jpg"} width={200} height={150} alt="image" />
+                <Image src={"https://cdn.pixabay.com/photo/2018/07/05/16/59/students-3518726__340.jpg"} width={200} height={150} alt="image" />
                 <div className={style.related_news_texts}>
                   <h1 className={style.related_news_heading}>Heading goes through this</h1>
                   <span className={style.related_news_time}>2 min ago</span>
@@ -215,7 +216,7 @@ const Education = () => {
                 </div>
               </div>
               <div className={style.related_news}>
-                <Image src={"/images/aw.jpg"} width={200} height={150} alt="image" />
+                <Image src={"https://cdn.pixabay.com/photo/2018/09/11/19/49/education-3670453__340.jpg"} width={200} height={150} alt="image" />
                 <div className={style.related_news_texts}>
                   <h1 className={style.related_news_heading}>Heading goes through this</h1>
                   <span className={style.related_news_time}>2 min ago</span>
@@ -230,7 +231,7 @@ const Education = () => {
                 </div>
               </div>
               <div className={style.related_news}>
-                <Image src={"/images/aw.jpg"} width={200} height={150} alt="image" />
+                <Image src={"https://cdn.pixabay.com/photo/2017/07/02/09/03/books-2463779_960_720.jpg"} width={200} height={150} alt="image" />
                 <div className={style.related_news_texts}>
                   <h1 className={style.related_news_heading}>Heading goes through this</h1>
                   <span className={style.related_news_time}>2 min ago</span>
@@ -245,7 +246,7 @@ const Education = () => {
                 </div>
               </div>
               <div className={style.related_news}>
-                <Image src={"/images/aw.jpg"} width={200} height={150} alt="image" />
+                <Image src={"https://cdn.pixabay.com/photo/2018/02/07/18/30/group-3137670_960_720.jpg"} width={200} height={150} alt="image" />
                 <div className={style.related_news_texts}>
                   <h1 className={style.related_news_heading}>Heading goes through this</h1>
                   <span className={style.related_news_time}>2 min ago</span>
@@ -260,7 +261,7 @@ const Education = () => {
                 </div>
               </div>
               <div className={style.related_news}>
-                <Image src={"/images/aw.jpg"} width={200} height={150} alt="image" />
+                <Image src={"https://cdn.pixabay.com/photo/2015/08/05/13/55/children-876543_960_720.jpg"} width={200} height={150} alt="image" />
                 <div className={style.related_news_texts}>
                   <h1 className={style.related_news_heading}>Heading goes through this</h1>
                   <span className={style.related_news_time}>2 min ago</span>
@@ -275,7 +276,7 @@ const Education = () => {
                 </div>
               </div>
               <div className={style.related_news}>
-                <Image src={"/images/aw.jpg"} width={200} height={150} alt="image" />
+                <Image src={"https://cdn.pixabay.com/photo/2015/01/08/18/24/children-593313_960_720.jpg"} width={200} height={150} alt="image" />
                 <div className={style.related_news_texts}>
                   <h1 className={style.related_news_heading}>Heading goes through this</h1>
                   <span className={style.related_news_time}>2 min ago</span>
@@ -290,7 +291,7 @@ const Education = () => {
                 </div>
               </div>
               <div className={style.related_news}>
-                <Image src={"/images/aw.jpg"} width={200} height={150} alt="image" />
+                <Image src={"https://cdn.pixabay.com/photo/2019/07/11/14/24/reading-4330761_960_720.jpg"} width={200} height={150} alt="image" />
                 <div className={style.related_news_texts}>
                   <h1 className={style.related_news_heading}>Heading goes through this</h1>
                   <span className={style.related_news_time}>2 min ago</span>
@@ -305,7 +306,7 @@ const Education = () => {
                 </div>
               </div>
               <div className={style.related_news}>
-                <Image src={"/images/aw.jpg"} width={200} height={150} alt="image" />
+                <Image src={"https://cdn.pixabay.com/photo/2015/09/05/21/51/reading-925589__180.jpg"} width={200} height={150} alt="image" />
                 <div className={style.related_news_texts}>
                   <h1 className={style.related_news_heading}>Heading goes through this</h1>
                   <span className={style.related_news_time}>2 min ago</span>
@@ -320,7 +321,7 @@ const Education = () => {
                 </div>
               </div>
               <div className={style.related_news}>
-                <Image src={"/images/aw.jpg"} width={200} height={150} alt="image" />
+                <Image src={"https://cdn.pixabay.com/photo/2020/05/16/16/43/book-5178205_960_720.jpg"} width={200} height={150} alt="image" />
                 <div className={style.related_news_texts}>
                   <h1 className={style.related_news_heading}>Heading goes through this</h1>
                   <span className={style.related_news_time}>2 min ago</span>
@@ -336,7 +337,7 @@ const Education = () => {
               </div>
 
                <div className={style.related_news}>
-                <Image src={"/images/aw.jpg"} width={200} height={150} alt="image" />
+                <Image src={"https://cdn.pixabay.com/photo/2019/07/11/14/24/reading-4330761_960_720.jpg"} width={200} height={150} alt="image" />
                 <div className={style.related_news_texts}>
                   <h1 className={style.related_news_heading}>Heading goes through this</h1>
                   <span className={style.related_news_time}>2 min ago</span>
@@ -351,7 +352,7 @@ const Education = () => {
                 </div>
               </div>
                <div className={style.related_news}>
-                <Image src={"/images/aw.jpg"} width={200} height={150} alt="image" />
+                <Image src={"https://cdn.pixabay.com/photo/2015/01/08/18/24/children-593313_960_720.jpg"} width={200} height={150} alt="image" />
                 <div className={style.related_news_texts}>
                   <h1 className={style.related_news_heading}>Heading goes through this</h1>
                   <span className={style.related_news_time}>2 min ago</span>

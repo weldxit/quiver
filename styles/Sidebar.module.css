@@ -4,6 +4,8 @@
 .container ::-webkit-scrollbar{
   display: none;
 }
+
+
 .sidebar{
   background-color: rgb(255, 255, 255);
   padding: 0.3rem;
