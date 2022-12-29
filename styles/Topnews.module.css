@@ -10,9 +10,7 @@
     width: 124vh;
     border-bottom: 2px solid red;
 }
-.topnews :nth-of-type(1){
-    grid-column: 1/2;
-}
+
 .heading{
     margin:0;
     padding: 0;
@@ -56,6 +54,7 @@
 
 }
 
+
 .imagedivmain_heading {
     margin: 0;
     padding: 0;
@@ -79,4 +78,109 @@
     font-weight: bold;
 
 
+}
+
+@media screen and (max-width:479px) {
+
+    .topnews {
+        display: flex;
+        flex-direction: column;
+        height: max-content;
+        justify-content: center;
+        width: 100%;
+        align-items: center;
+        
+    }
+  
+    .heading{
+        margin: 0;
+        padding: 0;
+        text-align: center;
+        color: rgb(0, 0, 0);
+        height: 8rem;
+        justify-content: center;
+        align-items: center;
+        display: flex;
+        font-size: 4rem;
+      }
+      
+      .today{
+        color: Red;
+        font-size: 2rem;
+      }
+    
+    .imagediv {
+    
+        display: grid;
+        position: relative;
+        background-color: aqua;
+        box-sizing: content-box;
+        height: 26rem;
+        width: 49rem;
+    
+    
+    }
+    
+    .topnewsleft {
+        margin: 5rem 0;
+        display: grid;
+        grid-template-columns: 1fr 1fr;
+        /* grid-gap: 1.5rem; */
+        /* gap: 0.5rem; */
+        column-gap: 0;
+        row-gap: 3rem;
+        align-items: center;
+        justify-items: center;
+        width: 100%;
+        height: max-content;
+    
+    }
+    
+    
+    
+    
+    .imagedivmain {
+        margin: 0;
+       
+        position: relative;
+    height: 50rem;
+    width: 100%;
+    
+    }
+    .image{
+        height:50rem;
+    }
+    .imagedivmain_heading {
+        margin: 0;
+        /* padding: 0; */
+        color: rgb(255, 255, 255);
+        box-sizing: content-box;
+        font-weight: 900;
+        font-size: 3rem;
+        position: absolute;
+        z-index: 1;
+        background: black;
+        width: 100%;
+        height: 7rem;
+    }
+    
+    .imagedivmain_para {
+    
+        overflow: hidden;
+        position: absolute;
+        background-color: rgba(0, 0, 0, 0.678);
+        color: aliceblue;
+        z-index: 10;
+        bottom: 0;
+        left: 0;
+        right: 0;
+        margin: 0;
+        height: auto;
+        font-size: 3.5rem;
+        font-weight: bold;
+        /* height: 9rem; */
+        width: 100%;
+    
+    
+    }
 }

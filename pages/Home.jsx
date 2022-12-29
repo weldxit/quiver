@@ -13,7 +13,7 @@ import Layout from '../components/Layout';
 import MostReadings from '../components/MostReadings';
 const Home = () => {
     return (
-        <Layout>
+        <>
 
 
             
@@ -31,7 +31,7 @@ const Home = () => {
     </main>
     <MostReadings/>
         </div>
-        </Layout>
+        </>
     );
 }
 

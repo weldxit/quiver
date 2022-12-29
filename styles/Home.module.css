@@ -1,5 +1,6 @@
 .container {
-  margin: 0 5rem;
+  margin: 0 0.5rem;
+  width: max-content;
   /* border: 0.2rem solid rebeccapurple; */
 }
 
@@ -14,6 +15,7 @@
   column-gap: 0.3rem;
   
 }
+
 
 
 
@@ -36,7 +38,29 @@
 }
 
 
+@media only screen  and (max-width: 479px) { 
+  .container {
+    margin: 0;
+    width: max-content;
+    /* border: 0.2rem solid rebeccapurple; */
+  }
 
+  .main{
+
+    background-color: rgb(255, 255, 255);
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+  }
+
+.left{
+  display: none;
+}
+.sidebar{
+  display: none;
+}
+}
 
 
 
